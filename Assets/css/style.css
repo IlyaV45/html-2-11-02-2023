@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        font-size: 46px;}
+        .font-accent{
+        font-size: 46px;
+        font-family: 'Pacifico', cursive; 
+        background-color: #efdf29;   
+        }
+    a.logo{
+        
+        text-transform: uppercase;
+        text-transform: none;
+    }
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.subtitle{
+    text-align: right;
+    text-decoration: dotted red overline;
+}
+p{font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Rowdies', cursive;
+line-height: 1.5em;
+text-align: justify;
+text-indent: 3em;
+}
+.btn{
+    text-transform: none;
+    border: red;
+    border-style: solid;
+    border-width: 2px;
+}
