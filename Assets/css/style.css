@@ -3,26 +3,37 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     }
     a{
-        font-size: 46px;}
+        font-size: 46px;
+        color: inherit; 
+    }
+        
         .font-accent{
         font-size: 46px;
         font-family: 'Pacifico', cursive; 
-        background-color: #efdf29;   
+        background-color: #efdf29; 
+        
         }
     a.logo{
         
         text-transform: uppercase;
         text-transform: none;
     }
+   
 h1{
     text-align: center;
     text-transform: capitalize;
 }
+.article{
+    font-size: 60px;
+    color: chocolate;
+}
 .subtitle{
+    font-style: 1.2em;
     text-align: right;
     text-decoration: dotted red overline;
 }
-p{font-size: 18px;
+p{
+    font-size: 0.5em;
     font-weight: 700;
     font-style: italic;
     font-family: 'Rowdies', cursive;
