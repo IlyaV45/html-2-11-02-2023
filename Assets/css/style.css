@@ -1,11 +1,12 @@
-body{
-    background-color: rgb(19, 18, 17);
-    color: blanchedalmond;
+
+.wrapping-img{
+    text-align: center;
 }
-div{
-    display: inline-block;
-    width: 50%;
-    padding: 10px;
-    border: 10px solid teal;
-    box-sizing: border-box;
-}
+img{
+
+    width: 250px;
+    height: 250px;
+    border: 5px double gray;
+    border-radius: 50%;
+    object-fit: cover;object-position: top right;
+
