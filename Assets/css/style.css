@@ -1,49 +1,33 @@
 body{
-    background-color: aquamarine;
-    font-family: Arial, Helvetica, sans-serif;
-    }
-    a{
-        font-size: 46px;
-        color: inherit; 
-    }
-        
-        .font-accent{
-        font-size: 46px;
-        font-family: 'Pacifico', cursive; 
-        background-color: #efdf29; 
-        
-        }
-    a.logo{
-        
-        text-transform: uppercase;
-        text-transform: none;
-    }
-   
-h1{
+    background-color: #222222;
+    color: aliceblue;
+}
+.wrapping-img{
+    width: 100%;
     text-align: center;
-    text-transform: capitalize;
 }
-.article{
-    font-size: 60px;
-    color: chocolate;
+img{
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border: 5px solid red;
+    border-radius: 50% 50% 0% 50%;
+margin: 50px;
+box-sizing: border-box;
 }
-.subtitle{
-    font-style: 1.2em;
-    text-align: right;
-    text-decoration: dotted red overline;
+span, div{
+    /* width: 200px; */
+    padding: 1em;
+    
+    border: 5px solid red;
+    margin: 1em;
+    border-color: bisque;
+
 }
-p{
-    font-size: 0.5em;
-    font-weight: 700;
-    font-style: italic;
-    font-family: 'Rowdies', cursive;
-line-height: 1.5em;
-text-align: justify;
-text-indent: 3em;
+div{
+    width: 200px;
+    display: inline-block;
 }
-.btn{
-    text-transform: none;
-    border: red;
-    border-style: solid;
-    border-width: 2px;
+.midle{
+    margin: 70px 100px
 }
